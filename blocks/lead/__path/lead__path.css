@@ -1,0 +1,5 @@
+.lead__path {
+  position: absolute;
+  width: 88%;
+  z-index: 5;
+}
