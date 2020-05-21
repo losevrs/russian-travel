@@ -1,0 +1,23 @@
+.place__link {
+  margin: 0;
+  margin-top: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+
+.place__link:hover{
+  opacity: 0.8;
+}
+
+.place__link:link {
+  color: #FFFFFF;
+  text-decoration-line: underline;
+}
+
+.place__link:visited {
+  color: #FFFFFF;
+}
