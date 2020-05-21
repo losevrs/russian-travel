@@ -9,7 +9,6 @@
   align-items: flex-start;
   margin: 0;
   padding-top: 92px;
-  padding-left: 148px;
   min-height: 428px;
   max-width: 690px;
 }
@@ -17,17 +16,15 @@
 @media screen and (max-width: 768px) {
   .intro {
     padding-top: 88px;
-    padding-left: 24px;
-    min-width: 720px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     padding-top: 64px;
-    padding-left: 16px;
     min-height: 752px;
-    max-width: 288px;
+    min-width: 288px;
   }
 }
 

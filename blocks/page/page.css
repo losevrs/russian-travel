@@ -27,8 +27,8 @@ font-family: "Inter";
 }
 
 .page {
-    min-width: 100vh;
-    margin: 0 auto;
+    width: 100vw;
+    margin: 0;
     background: #2A2C2F;
     color: #FFFFFF;
     font-family: 'Inter', Arial, sans-serif;
