@@ -7,14 +7,26 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
   padding: 0;
   padding-top: 56px;
+  max-width: calc(100% - 296px);
+  width: calc(100% - 296px);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1050px) {
   .lead {
-      padding-top: 48px;
-    }
+    padding-top: 48px;
+    max-width: calc(100% - 96px);
+    width: calc(100% - 96px);
+  }
 }
 
+@media screen and (max-width: 800px) {
+  .lead {
+    padding-top: 48px;
+    max-width: 100%;
+    width: 100%;
+  }
+}

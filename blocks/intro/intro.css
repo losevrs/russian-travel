@@ -7,24 +7,34 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 92px;
   min-height: 428px;
-  max-width: 690px;
+  max-width: calc(100% - 296px);
+  width: calc(100% - 296px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
   .intro {
-    padding-top: 88px;
-    max-width: 720px;
+    max-width: calc(100% - 96px);
+    width: calc(100% - 96px);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 800px) {
+  .intro {
+    padding-top: 88px;
+    max-width: calc(100% - 48px);
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 400px) {
   .intro {
     padding-top: 64px;
     min-height: 752px;
-    min-width: 288px;
+    max-width: calc(100% - 32px);
+    width: calc(100% - 32px);
   }
 }
 
