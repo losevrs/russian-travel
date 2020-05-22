@@ -4,11 +4,12 @@
 
 .cover {
   margin: 0 auto;
-  min-height: 740px;
+  height: calc((100% - 96px) / 1.6);
   max-width: calc(100% - 96px);
   width: calc(100% - 96px);
   background-image: url('../../images/cover/cover-trains.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center;
   text-decoration: none;
 }
 
@@ -25,5 +26,6 @@
     margin: 0;
     width: 100%;
     max-width: 100%;
+    height: calc(100% / 1.6);
   }
 }

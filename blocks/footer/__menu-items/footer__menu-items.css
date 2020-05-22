@@ -1,0 +1,17 @@
+.footer__menu-items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer__menu-items {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0;
+    align-items: flex-start;
+  }
+}
