@@ -1,0 +1,18 @@
+.cover__box {
+  max-width: 100%;
+  width: 100%;
+  min-height: 740px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:rgba(42, 44, 47, 0.3);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__box:hover {
+  background-color:rgba(42, 44, 47, 0.8);
+}
+
