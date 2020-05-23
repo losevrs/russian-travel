@@ -1,7 +1,8 @@
 .cover__box {
   max-width: 100%;
   width: 100%;
-  min-height: 740px;
+  max-height: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
