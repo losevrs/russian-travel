@@ -13,7 +13,7 @@
   column-gap: 40px;
   row-gap: 48px;
   grid-template-columns: 460px 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: min-content auto;
   grid-template-areas:
   "title url"
   "photo text";

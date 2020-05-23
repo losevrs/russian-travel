@@ -6,6 +6,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  object-fit: fill;
 }
 
 @media screen and (max-width: 800px) {
