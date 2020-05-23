@@ -6,8 +6,8 @@
   margin: 0 auto;
   max-width: calc(100% - 96px);
   width: calc(100% - 96px);
-  max-height: calc(50vw - 96px);
-  height: calc(50vw - 96px);
+  max-height: calc(50vw - 48px);
+  height: calc(50vw - 48px);
   background-image: url('../../images/cover/cover-trains.jpg');
   background-size: contain;
   background-repeat: no-repeat;
