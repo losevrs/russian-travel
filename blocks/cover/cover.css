@@ -1,4 +1,4 @@
-@import url('./__box/cover__box.css');
+@import url('./__link/cover__link.css');
 @import url('./__title/cover__title.css');
 @import url('./__subtitle/cover__subtitle.css');
 
@@ -12,16 +12,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  text-decoration: none;
-  display: block;
-}
-
-.cover:link {
-  color: #FFFFFF;
-}
-
-.cover:visited {
-  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1050px) {
