@@ -1,17 +1,17 @@
 .footer__menu-items {
   margin: 0;
   padding: 0;
+  max-width: 415px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-right: 18px;
+  justify-content: flex-start;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 520px) {
   .footer__menu-items {
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 0;
     align-items: flex-start;
+    max-width: 186px; /* по копирайту*/
   }
 }

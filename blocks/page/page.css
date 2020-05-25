@@ -4,7 +4,7 @@
     margin: 0;
     background: #2A2C2F;
     color: #FFFFFF;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     box-sizing: border-box;
     display: flex;
     flex-flow: column nowrap;
@@ -12,3 +12,10 @@
     align-items: center;
 }
 
+@media screen and (max-width: 320px) {
+  .page {
+    width: 320px;
+    min-width: 320px;
+    max-width: 320px;
+  }
+}
