@@ -8,13 +8,12 @@
   max-width: 1184px; /* по макету */
   width: calc(100% - 96px);
   min-height: 740px;
+  height: calc(100vw * .62);
   position: relative;
-/*
   background-image: url('../../images/cover/cover-trains.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-*/
 }
 
 @media screen and (max-width: 1184px) {
