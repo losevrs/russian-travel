@@ -11,22 +11,30 @@
   margin: 0 auto;
   padding: 0;
   padding-top: 56px;
-  max-width: calc(100% - 296px);
+  max-width: 984px;
+  min-height: 1005px;
   width: calc(100% - 296px);
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1024px) {
   .lead {
     padding-top: 48px;
-    max-width: calc(100% - 96px);
+    max-width: 928px;
+    min-height: 962px;
     width: calc(100% - 96px);
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .lead {
-    padding-top: 48px;
     max-width: 100%;
     width: 100%;
+    min-height: 862px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    min-height: 406px;
   }
 }

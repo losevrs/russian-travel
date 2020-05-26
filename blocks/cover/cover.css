@@ -6,22 +6,21 @@
 .cover {
   margin: 0 auto;
   max-width: 1184px; /* по макету */
-  width: 1184px;
+  width: calc(100% - 96px);
   min-height: 740px;
-  height: 740px;
   position: relative;
-  /*
+/*
   background-image: url('../../images/cover/cover-trains.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  */
+*/
 }
 
 @media screen and (max-width: 1184px) {
   .cover {
     margin: 0;
     width: 100%;
-    min-height: 640px;
+    height: calc(100vw * .62);
   }
 }

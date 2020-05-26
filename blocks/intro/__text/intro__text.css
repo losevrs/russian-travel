@@ -2,10 +2,15 @@
   margin: 0;
   margin-top: 40px;
   max-width: 690px;
-  min-width: 288px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
+}
+
+@media screen and (max-width: 720px) {
+  .intro__text {
+    max-width: 720px;
+  }
 }

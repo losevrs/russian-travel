@@ -7,7 +7,6 @@
 .footer {
   min-height: 18px;
   max-width: 1280px; /* по макету */
-  min-width: 320px;
   width: calc(100% - 96px);
   margin: 0 auto;
   padding-top: 92px;
@@ -39,7 +38,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 186px;
-    width: 186px;
     min-height: 310px;
     padding-top: 64px;
     flex-flow: column nowrap;

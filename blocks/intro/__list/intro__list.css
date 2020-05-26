@@ -3,4 +3,11 @@
   margin-top: 32px;
   padding: 0;
   list-style: none;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 720px) {
+  .intro__list {
+    max-width: 720px;
+  }
 }
