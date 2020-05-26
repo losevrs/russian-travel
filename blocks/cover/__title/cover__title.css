@@ -13,7 +13,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 602px) {
   .cover__title {
     min-height: 70px;
     max-width: 288px;
@@ -22,3 +22,4 @@
     line-height: 35px;
    }
 }
+

@@ -3,9 +3,22 @@
   flex-direction: column;
   justify-content: flex-end;
   grid-area: url;
+  max-width: 484px;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 1024px) {
+  .place__website {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 602px) {
   .place__website {
     display: none;
   }

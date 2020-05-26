@@ -40,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 602px) {
   .place {
     min-height: 963px;
     max-width: 630px;
