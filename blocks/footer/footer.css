@@ -6,7 +6,7 @@
 
 .footer {
   min-height: 18px;
-  max-width: 1280px; /* по макету */
+  max-width: 1184px; /* по макету */
   width: calc(100% - 96px);
   margin: 0 auto;
   padding-top: 92px;
@@ -15,7 +15,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .footer {
     max-width: 928px;
   }
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 630px) {
   .footer {
-    flex-direction: column;
+    flex-flow: column nowrap;
   }
 }
 
@@ -40,7 +40,6 @@
     max-width: 186px;
     min-height: 310px;
     padding-top: 64px;
-    flex-flow: column nowrap;
     margin: 0;
     margin-left: 16px;
     align-self: flex-start;

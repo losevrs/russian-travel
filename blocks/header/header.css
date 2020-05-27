@@ -7,8 +7,8 @@
 
 .header {
   margin: 0 auto;
-  max-width: 1280px; /* по макету */
-  min-width: 320px;
+  max-width: 1184px; /* по макету */
+  min-height: 52px;
   width: calc(100% - 96px);
   padding-top: 28px;
   display: flex;
@@ -17,14 +17,23 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header {
+    max-width: 720px;
     width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
+    max-width: 288px;
+    min-width: 42px;
     width: 100%;
     padding: 16px 16px 0;
   }
