@@ -13,6 +13,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,6 +29,7 @@
 @media screen and (max-width: 768px) {
   .cover {
     margin: 0;
+    margin-top: 88px;
     width: 100%;
     max-width: 768px;
     height: calc(100vw * .62);
@@ -39,5 +41,6 @@
   .cover {
     max-width: 320px;
     max-height: 200px;
+    margin-top: 64px;
   }
 }

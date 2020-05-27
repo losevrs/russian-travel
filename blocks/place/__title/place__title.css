@@ -7,12 +7,20 @@
   font-size: 72px;
   line-height: 76px;
   object-fit: fill;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    max-width: 330px;
   }
 }
 
