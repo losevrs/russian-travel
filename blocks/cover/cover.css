@@ -10,7 +10,7 @@
   height: calc(100vw * .62);
   position: relative;
   background-image: url('../../images/cover/cover-trains.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 92px;
